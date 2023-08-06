@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -63,8 +62,8 @@
 
             bindings = <
     &none  &trans  &trans   &trans   &trans  &kp IT_BACKSLASH     &kp IT_APOS  &kp IT_I_GRAVE   &kp BACKSPACE    &kp BACKSPACE  &trans  &trans
-&kp GRAVE  &kp N1  &kp N2   &kp N3   &kp N4            &kp N5  &kp IT_E_GRAVE     &kt IT_PLUS      &kp RETURN       &kp RETURN   &none   &none
-   &kp F1  &kp F2  &kp F3   &kp F4   &kp F5            &kp F6  &kt IT_O_GRAVE  &kt IT_A_GRAVE  &kp IT_U_GRAVE       &kp RETURN   &none   &none
+&kp GRAVE  &kp N1  &kp N2   &kp N3   &kp N4            &kp N5  &kp IT_E_GRAVE     &kp IT_PLUS      &kp RETURN       &kp RETURN   &none   &none
+   &kp F1  &kp F2  &kp F3   &kp F4   &kp F5            &kp F6  &kp IT_O_GRAVE  &kp IT_A_GRAVE  &kp IT_U_GRAVE       &kp RETURN   &none   &none
    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11           &kp F12    &kp IT_COMMA      &kp IT_DOT    &kp IT_MINUS  &kp RIGHT_SHIFT   &none   &none
    &trans  &trans  &trans   &trans   &trans            &trans          &trans          &trans          &trans           &trans  &trans  &trans
             >;
